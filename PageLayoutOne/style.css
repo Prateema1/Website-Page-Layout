@@ -1,0 +1,11 @@
+/*Normalizing 
+By default most of the html elements have default margin and padding
+given by browser's user agent stylesheet. To remove those properties,
+we do normalizing using below css (*) selector. * means the css property will be 
+applied to all the html elements in the connected html web page.
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
