@@ -8,4 +8,16 @@ applied to all the html elements in the connected html web page.
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;   /* Considers padding and border as part of the width.  */
+    font-family: Arial;
+}
+
+#div1 {
+    width: 100%;    /*occupies entire width of the browser */
+    height: 50px;
+    background-color: lightgray;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
 }
