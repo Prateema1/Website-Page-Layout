@@ -51,4 +51,39 @@
     background-color: lightgrey;
     text-align: center;
     line-height: 80px;
+    margin-bottom: 10px;
+}
+
+#parent-div {
+    width: 100%;
+    min-height: 400px;
+   /* background-color: gray; */
+   margin-bottom: 10px;
+}
+
+#parent-div .box {
+    width: 30%;
+    min-height: 400px;
+    background-color: lightgray;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+}
+
+#parent-div .box:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#footer-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+}
+
+#wrapper-div {
+    width: 80%;
+    margin: auto;
 }
