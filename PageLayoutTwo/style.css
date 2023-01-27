@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo-nav-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+}
+
+#logo-div {
+    width: 50%;
+    min-height: 50px;
+   /* background-color: gray; */
+    float: left;
+    line-height: 50px;
+    padding-left: 2%;
+}
+
+#nav-div {
+    width: 50%;
+    min-height: 50px;
+    /* background-color: gray; */
+    float: right;
+    line-height: 50px;
+}
+
+.clearfix::after {   /* After the content of the child, generate content="" */
+    content: "";
+    display: block;
+    clear: both;
+
+}
