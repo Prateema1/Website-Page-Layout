@@ -9,6 +9,7 @@
     width: 100%;
     min-height: 50px;
     background-color: lightgray;
+    margin-bottom: 10px;
 }
 
 #logo-div {
@@ -33,4 +34,21 @@
     display: block;
     clear: both;
 
+}
+
+#header-banner-div {
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+#intro-div {
+    width: 100%;
+    min-height: 80px;
+    background-color: lightgrey;
+    text-align: center;
+    line-height: 80px;
 }
