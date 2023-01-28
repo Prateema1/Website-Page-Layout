@@ -8,7 +8,7 @@
 #wrapper-div {
     width: 60%;
     min-height: 100px;
-    background-color: orange;
+    /* background-color: orange; */
     margin: auto;
 }
 
@@ -24,5 +24,43 @@
 #parent-div {
     width: 100%;
     min-height: 500px;
-    background-color: red;
+    /* background-color: red; */
+}
+
+#childLeft-div {
+    width: 25%;
+    min-height: 500px;
+    /* background-color: green; */
+    float: left;
+    padding-top: 2%;
+}
+
+#childRight-div {
+    width: 70%;
+    min-height: 500px;
+    /* background-color: blue; */
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#header-banner-div {
+    width: 100%;
+    min-height: 150px;
+    background-color: lightgray;
+    margin-bottom: 30px;
+    line-height: 150px;
+    text-align: center;
+}
+
+#body-area-div {
+    width: 100%;
+    min-height: 320px;
+    background-color: lightgray;
+    line-height: 320px;
+    text-align: center;
 }
