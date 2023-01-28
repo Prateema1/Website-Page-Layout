@@ -63,4 +63,14 @@
     background-color: lightgray;
     line-height: 320px;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+#footer-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    text-align: center;
+
 }
