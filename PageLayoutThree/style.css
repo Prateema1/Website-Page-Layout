@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+#wrapper-div {
+    width: 60%;
+    min-height: 100px;
+    background-color: orange;
+    margin: auto;
+}
+
+#logo-div {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    padding-left: 2%;
+    margin-bottom: 10px;
+}
+
+#parent-div {
+    width: 100%;
+    min-height: 500px;
+    background-color: red;
+}
