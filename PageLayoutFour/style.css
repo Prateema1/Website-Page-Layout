@@ -8,7 +8,6 @@
 #wrapper-div {
     width: 60%;
     min-height: 100px;
-    background-color: orange;
     margin: auto;
 }
 
@@ -16,7 +15,6 @@
     width: 100%;
     min-height: 50px;
     background-color: lightgrey;
-    margin-bottom: 10px;
 }
 
 #logo-div {
@@ -45,7 +43,8 @@
 .row {
     width: 100%;
     min-height: 100px;
-    background-color: red;
+    /* background-color: red; */
+    margin-top: 10px;
 }
 
 .column {
@@ -53,10 +52,38 @@
     min-height: 100px;
     background-color: lightgray;
     float: left;
-
 }
 
-.column:nth-child(2), .column:nth-child(3) {
+.column:nth-child(2),.column:nth-child(3) {
     margin-left: 5%;
     margin-right: 5%;
+}
+
+#boxes {
+    width: 100%;
+    min-height: 200px;
+   /* background-color: red; */
+    margin-top: 10px;
+}
+
+.box {
+  width: 30%;
+  min-height: 150px;
+  background-color: lightgray;
+  float: left;
+  text-align: center;
+  line-height: 150px;
+}
+
+.box:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
 }
